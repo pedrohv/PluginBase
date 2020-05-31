@@ -3,10 +3,10 @@ using PluginBase;
 
 namespace HolaPlugin
 {
-    public class HelloCommand : ICommand
+    public class HolaCommand : ICommand
     {
-        public string Name { get => "hola"; }
-        public string Description { get => "Displays hello message in spanish language."; }
+        public string Name => "hola";
+        public string Description => "Displays hello message in spanish language.";
 
         public int Execute()
         {

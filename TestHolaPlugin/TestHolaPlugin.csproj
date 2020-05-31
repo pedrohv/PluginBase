@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\HelloPlugin\HelloPlugin.csproj" />
+      <ProjectReference Include="..\HolaPlugin\HolaPlugin.csproj" />
     </ItemGroup>
 
 </Project>

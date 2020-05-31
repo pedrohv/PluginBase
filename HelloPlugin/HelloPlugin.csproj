@@ -11,8 +11,4 @@
         </ProjectReference>  
     </ItemGroup>
 
-    <ItemGroup>
-      <PackageReference Include="Microsoft.CodeCoverage" Version="16.7.0-preview-20200519-01" />
-    </ItemGroup>
-
 </Project>

@@ -5,8 +5,8 @@ namespace HelloPlugin
 {
     public class HelloCommand : ICommand
     {
-        public string Name { get => "hello"; }
-        public string Description { get => "Displays hello message."; }
+        public string Name => "hello";
+        public string Description => "Displays hello message.";
 
         public int Execute()
         {
